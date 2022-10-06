@@ -18,11 +18,7 @@
 #include "config.h"
 
 #include <xc.h>
-#include "ssd1306.h"
-#include "wire.h"
-#include "Arial_Bold_16x17.h"
 #include "lk1628.h"
-#include "mc2002.h"
 
 // BOARD MODEL: JXY048CY
 //
