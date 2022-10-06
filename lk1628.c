@@ -15,8 +15,6 @@
 
 #include "lk1628.h"
 
-#define _NOP() __asm__ __volatile__("nop")
-
 void LK1628_Write(unsigned char data)
 {
     for(unsigned char mask = 0x01; mask; mask <<= 1)
